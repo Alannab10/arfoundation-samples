@@ -321,7 +321,7 @@ MonoBehaviour:
   - {fileID: 5159939376808632448}
   - {fileID: -7936470500193948812}
   - {fileID: 1287185478433949296}
-  - {fileID: 6882453901244700233}
+  - {fileID: -2589091030702169456}
   - {fileID: 4459740260581005389}
   - {fileID: -3751639061014600085}
   - {fileID: -8284160343827973960}
@@ -344,7 +344,6 @@ MonoBehaviour:
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
   m_foveatedRenderingApi: 0
-  m_useOpenXRPredictedTime: 0
 --- !u!114 &-6390451366776283669
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -369,7 +368,6 @@ MonoBehaviour:
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
   m_foveatedRenderingApi: 0
-  m_useOpenXRPredictedTime: 0
 --- !u!114 &-6261869685228811176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -386,7 +384,7 @@ MonoBehaviour:
   nameUi: 'Meta Quest: Occlusion'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.arfoundation-meta-occlusion
-  openxrExtensionStrings: XR_META_environment_depth XR_KHR_vulkan_enable
+  openxrExtensionStrings: XR_META_environment_depth
   company: Unity Technologies
   priority: 0
   required: 0
@@ -455,7 +453,6 @@ MonoBehaviour:
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
   m_foveatedRenderingApi: 0
-  m_useOpenXRPredictedTime: 0
 --- !u!114 &-5761436215658630015
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -880,7 +877,7 @@ MonoBehaviour:
   - {fileID: 2660047257584272381}
   - {fileID: -8352711597128139486}
   m_renderMode: 1
-  m_latencyOptimization: 0
+  m_latencyOptimization: 1
   m_autoColorSubmissionMode: 1
   m_colorSubmissionModes:
     m_List: 00000000
@@ -889,7 +886,6 @@ MonoBehaviour:
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
   m_foveatedRenderingApi: 0
-  m_useOpenXRPredictedTime: 0
 --- !u!114 &-2438849359260552081
 MonoBehaviour:
   m_ObjectHideFlags: 0
