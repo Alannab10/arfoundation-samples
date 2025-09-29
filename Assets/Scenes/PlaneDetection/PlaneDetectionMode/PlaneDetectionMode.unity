@@ -1334,6 +1334,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1428192370}
+    - targetCorrespondingSourceObject: {fileID: 7957942351869948125, guid: 8f2c1ffdafd49a943ac79dc0ff480220,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1428192372}
   m_SourcePrefab: {fileID: 100100000, guid: 8f2c1ffdafd49a943ac79dc0ff480220, type: 3}
 --- !u!1 &1428192363 stripped
 GameObject:
@@ -1376,6 +1380,20 @@ MonoBehaviour:
   m_VerticalSliderToggle: {fileID: 2116728526}
   m_NotAxisAlignedSliderToggle: {fileID: 748847936}
   m_ARPlaneManager: {fileID: 1428192365}
+--- !u!114 &1428192372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428192363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8550f59e523772340968fa774b938aaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabToSpawn: {fileID: 6567812709508832539, guid: d5ad3193bcb816243b70974a4f9969ab,
+    type: 3}
 --- !u!1 &1435757626
 GameObject:
   m_ObjectHideFlags: 0
