@@ -4,25 +4,32 @@ public class InteractObject : MonoBehaviour
 {
     private Renderer rend;
     private Color originalColor;
+    private float lastTapTime = 0f;
+    private float doubleTapThreshold = 0.3f;
 
     void Start()
     {
         rend = GetComponent<Renderer>();
         originalColor = rend.material.color;
     }
-    public void ChangeColor()
-    {
-        rend.material.color = Random.ColorHSV();
-    }
-
-    public void RotateObject()
-    {
-        transform.Rotate(Vector3.up, 45f);
-    }
 
     public void OnTapped()
     {
-        ChangeColor();
-        RotateObject();
+        float currentTime = Time.time;
+
+        if (currentTime - lastTapTime <= doubleTapThreshold)
+        {
+            ChangeColor();
+        }
+
+        lastTapTime = currentTime;
+    }
+
+    private void ChangeColor()
+    {
+        if (rend != null)
+        {
+            rend.material.color = Random.ColorHSV();
+        }
     }
 }

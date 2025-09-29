@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
@@ -8,7 +8,7 @@ public class ARObjectPlacer : MonoBehaviour
 {
     [Header("Prefab")]
     public GameObject prefabToSpawn;
-    public PlayerInput inputs; 
+    public PlayerInput inputs;
 
     void Awake()
     {
